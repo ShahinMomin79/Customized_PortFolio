@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        * {
+            margin: auto;
+            margin: 0px;
+            height: 100%;
+            background-color: black;
+
+        }
+
+        #image {
+            height: 170px;
+            background-image: url(./images/logo.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100px;
+            animation-name: change;
+            animation-iteration-count: infinite;
+            animation-duration: 5s;
+
+        }
+
+        @keyframes change {
+            10% {
+                background-size: 200px;
+                transform: rotateY(90deg);
+            }
+
+            50% {
+                background-size: 200px;
+                transform: rotateY(180deg);
+            }
+
+            75% {
+                background-size: 200px;
+                transform: rotateY(270deg)
+            }
+
+            100% {
+                background-size: 200px;
+                transform: rotateY(360deg);
+            }
+        }
+
+        .mid {
+            /* height: 1000px; */
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .mid {
+            /* height: 200px; */
+            /* width: 1200px; */
+            border: 2px solid blue double;
+            /* background-color: rgba(133, 125, 125, 0.323); */
+            color: white;
+            border-radius: 30px;
+            /* display: inline-block; */
+            text-align: center;
+
+
+
+
+        }
+        
+        .mid dl{
+            height: 50px;
+           
+        }
+        .mid dl dd{
+            display: inline-block;
+            font-size: 40px;
+        }
+        .mid dl dd dt{
+            margin-left: 500px;      
+         }
+        nav {
+            padding-top: 50px;
+            padding-bottom: none;
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            height: 100px;
+        }
+
+        #title {
+            font-size: large;
+
+        }
+        #project2{
+            height: 150px;
+            margin-top: 100px;
+        }
+        #project3{
+            height: 150px;
+            /* margin-top: 100px; */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <nav>
+            <h1>PROJECTS</h1>
+        </nav>
+        <div id="image"></div>
+        <div class="mid">
+            <div id="project1">
+                <dl>
+                <dd>1.CRUD Operation using SpringMVC</dd>
+                <dt style="width: 800px;"> Create,Read,Update,Delete operation with the help of an java(which is one of the most secure langauge) SpringMVC
+                by using servlets and jsp also</dt>
+                </dl>
+                
+
+
+                <div id="project2">
+                    <dl>
+                        <dd>2.CUSTOMIZED PORTFOLIO</dd>
+                        <dt style="width: 700px;">
+                            Designed A Customized PortFolio by using HTML , CSS and JavaScript 
+                            (Static as well as Dynamic)
+                        </dt>
+                        </dl>
+                </div>
+                <div id="project3">
+                    <dl>
+                        <dd>3.MYNTRA Clone</dd>
+                        <dt style="width: 700px;">
+                            Designed a Very popular online shopping site with the help of an HTML,CSS and JavaScript
+                        </dt>
+                        </dl>
+                </div>
+                <div id="project4">
+                    <dl>
+                        <dd style="width: 500px;">4.Deposition of Iron Oxide thin film by SILAR method for Supercapacitor Applications</dd>
+                        <dt style="width: 700px;">
+                        </dt>
+                        </dl>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
